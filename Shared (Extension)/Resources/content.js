@@ -1,7 +1,12 @@
-browser.runtime.sendMessage({ greeting: "hello" }).then((response) => {
-    console.log("Received response: ", response);
-});
+//browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
+//    if (request.state) {
+//        document.body.classList.add('dark');
+//    } else {
+//        document.body.classList.remove('dark');
+//    }
+//});
 
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
-});
+
+window.onload=function() {
+    document.body.classList.add('dark');
+}

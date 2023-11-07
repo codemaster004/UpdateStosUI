@@ -6,6 +6,20 @@
     <script type="module" src="popup.js"></script>
 </head>
 <body>
-    <strong>Hello World!</strong>
+    <strong style="margin-bottom: 40px;">STOS, seriously?</strong>
+    <br/>
+    <label class="switch">
+      <input type="checkbox" checked id="dark-toggle">
+      <span class="slider round"></span>
+    </label>
+    
+    <script>
+        var checkbox = document.querySelector("#dark-toggle");
+        
+        checkbox.addEventListener('change', function() {
+            console.log("hello there", browser)l
+            browser.runtime.sendMessage({ state: this.checked });
+        });
+    </script>
 </body>
 </html>

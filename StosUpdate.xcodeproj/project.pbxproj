@@ -45,6 +45,8 @@
 		DCC8F0CB2AFABE2300E278F9 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F07B2AFABE2300E278F9 /* popup.css */; };
 		DCC8F0CC2AFABE2300E278F9 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F07C2AFABE2300E278F9 /* popup.js */; };
 		DCC8F0CD2AFABE2300E278F9 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F07C2AFABE2300E278F9 /* popup.js */; };
+		DCC8F0DF2AFAC8B900E278F9 /* StosStyles.css in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0DE2AFAC8B900E278F9 /* StosStyles.css */; };
+		DCC8F0E02AFAC8B900E278F9 /* StosStyles.css in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0DE2AFAC8B900E278F9 /* StosStyles.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +122,7 @@
 		DCC8F0A92AFABE2300E278F9 /* StosUpdate Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "StosUpdate Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC8F0AE2AFABE2300E278F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC8F0AF2AFABE2300E278F9 /* StosUpdate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StosUpdate.entitlements; sourceTree = "<group>"; };
+		DCC8F0DE2AFAC8B900E278F9 /* StosStyles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = StosStyles.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +211,7 @@
 				DCC8F07A2AFABE2300E278F9 /* popup.html */,
 				DCC8F07B2AFABE2300E278F9 /* popup.css */,
 				DCC8F07C2AFABE2300E278F9 /* popup.js */,
+				DCC8F0DE2AFAC8B900E278F9 /* StosStyles.css */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -418,6 +422,7 @@
 				DCC8F0CA2AFABE2300E278F9 /* popup.css in Resources */,
 				DCC8F0C82AFABE2300E278F9 /* popup.html in Resources */,
 				DCC8F0C02AFABE2300E278F9 /* images in Resources */,
+				DCC8F0DF2AFAC8B900E278F9 /* StosStyles.css in Resources */,
 				DCC8F0C22AFABE2300E278F9 /* manifest.json in Resources */,
 				DCC8F0BE2AFABE2300E278F9 /* _locales in Resources */,
 				DCC8F0C62AFABE2300E278F9 /* content.js in Resources */,
@@ -433,6 +438,7 @@
 				DCC8F0CB2AFABE2300E278F9 /* popup.css in Resources */,
 				DCC8F0C92AFABE2300E278F9 /* popup.html in Resources */,
 				DCC8F0C12AFABE2300E278F9 /* images in Resources */,
+				DCC8F0E02AFAC8B900E278F9 /* StosStyles.css in Resources */,
 				DCC8F0C32AFABE2300E278F9 /* manifest.json in Resources */,
 				DCC8F0BF2AFABE2300E278F9 /* _locales in Resources */,
 				DCC8F0C72AFABE2300E278F9 /* content.js in Resources */,

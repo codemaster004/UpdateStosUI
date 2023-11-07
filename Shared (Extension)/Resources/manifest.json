@@ -19,8 +19,9 @@
     },
 
     "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [ "*://stos.eti.pg.gda.pl/*" ],
+        "css": ["StosStyles.css"],
+        "js": [ "content.js" ]
     }],
 
     "action": {

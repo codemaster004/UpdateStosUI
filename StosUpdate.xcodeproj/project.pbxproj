@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCC8F0852AFABE2300E278F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8F0842AFABE2300E278F9 /* AppDelegate.swift */; };
+		DCC8F0872AFABE2300E278F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8F0862AFABE2300E278F9 /* SceneDelegate.swift */; };
+		DCC8F08A2AFABE2300E278F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0882AFABE2300E278F9 /* LaunchScreen.storyboard */; };
+		DCC8F08D2AFABE2300E278F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F08B2AFABE2300E278F9 /* Main.storyboard */; };
+		DCC8F0962AFABE2300E278F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8F0952AFABE2300E278F9 /* AppDelegate.swift */; };
+		DCC8F0992AFABE2300E278F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0972AFABE2300E278F9 /* Main.storyboard */; };
+		DCC8F0A02AFABE2300E278F9 /* StosUpdate Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DCC8F09F2AFABE2300E278F9 /* StosUpdate Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DCC8F0AA2AFABE2300E278F9 /* StosUpdate Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DCC8F0A92AFABE2300E278F9 /* StosUpdate Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DCC8F0B02AFABE2300E278F9 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F06B2AFABE2100E278F9 /* Main.html */; };
+		DCC8F0B12AFABE2300E278F9 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F06B2AFABE2100E278F9 /* Main.html */; };
+		DCC8F0B22AFABE2300E278F9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F06D2AFABE2100E278F9 /* Icon.png */; };
+		DCC8F0B32AFABE2300E278F9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F06D2AFABE2100E278F9 /* Icon.png */; };
+		DCC8F0B42AFABE2300E278F9 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F06E2AFABE2100E278F9 /* Style.css */; };
+		DCC8F0B52AFABE2300E278F9 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F06E2AFABE2100E278F9 /* Style.css */; };
+		DCC8F0B62AFABE2300E278F9 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F06F2AFABE2100E278F9 /* Script.js */; };
+		DCC8F0B72AFABE2300E278F9 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F06F2AFABE2100E278F9 /* Script.js */; };
+		DCC8F0B82AFABE2300E278F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8F0702AFABE2100E278F9 /* ViewController.swift */; };
+		DCC8F0B92AFABE2300E278F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8F0702AFABE2100E278F9 /* ViewController.swift */; };
+		DCC8F0BA2AFABE2300E278F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0712AFABE2300E278F9 /* Assets.xcassets */; };
+		DCC8F0BB2AFABE2300E278F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0712AFABE2300E278F9 /* Assets.xcassets */; };
+		DCC8F0BC2AFABE2300E278F9 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8F0732AFABE2300E278F9 /* SafariWebExtensionHandler.swift */; };
+		DCC8F0BD2AFABE2300E278F9 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8F0732AFABE2300E278F9 /* SafariWebExtensionHandler.swift */; };
+		DCC8F0BE2AFABE2300E278F9 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0752AFABE2300E278F9 /* _locales */; };
+		DCC8F0BF2AFABE2300E278F9 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0752AFABE2300E278F9 /* _locales */; };
+		DCC8F0C02AFABE2300E278F9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0762AFABE2300E278F9 /* images */; };
+		DCC8F0C12AFABE2300E278F9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0762AFABE2300E278F9 /* images */; };
+		DCC8F0C22AFABE2300E278F9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0772AFABE2300E278F9 /* manifest.json */; };
+		DCC8F0C32AFABE2300E278F9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0772AFABE2300E278F9 /* manifest.json */; };
+		DCC8F0C42AFABE2300E278F9 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0782AFABE2300E278F9 /* background.js */; };
+		DCC8F0C52AFABE2300E278F9 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0782AFABE2300E278F9 /* background.js */; };
+		DCC8F0C62AFABE2300E278F9 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0792AFABE2300E278F9 /* content.js */; };
+		DCC8F0C72AFABE2300E278F9 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F0792AFABE2300E278F9 /* content.js */; };
+		DCC8F0C82AFABE2300E278F9 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F07A2AFABE2300E278F9 /* popup.html */; };
+		DCC8F0C92AFABE2300E278F9 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F07A2AFABE2300E278F9 /* popup.html */; };
+		DCC8F0CA2AFABE2300E278F9 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F07B2AFABE2300E278F9 /* popup.css */; };
+		DCC8F0CB2AFABE2300E278F9 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F07B2AFABE2300E278F9 /* popup.css */; };
+		DCC8F0CC2AFABE2300E278F9 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F07C2AFABE2300E278F9 /* popup.js */; };
+		DCC8F0CD2AFABE2300E278F9 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = DCC8F07C2AFABE2300E278F9 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCC8F0A12AFABE2300E278F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC8F0652AFABE2100E278F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC8F09E2AFABE2300E278F9;
+			remoteInfo = "StosUpdate Extension (iOS)";
+		};
+		DCC8F0AB2AFABE2300E278F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC8F0652AFABE2100E278F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC8F0A82AFABE2300E278F9;
+			remoteInfo = "StosUpdate Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCC8F0D32AFABE2300E278F9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DCC8F0A02AFABE2300E278F9 /* StosUpdate Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8F0DA2AFABE2300E278F9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DCC8F0AA2AFABE2300E278F9 /* StosUpdate Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DCC8F06C2AFABE2100E278F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		DCC8F06D2AFABE2100E278F9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DCC8F06E2AFABE2100E278F9 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		DCC8F06F2AFABE2100E278F9 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		DCC8F0702AFABE2100E278F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCC8F0712AFABE2300E278F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC8F0732AFABE2300E278F9 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		DCC8F0752AFABE2300E278F9 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		DCC8F0762AFABE2300E278F9 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		DCC8F0772AFABE2300E278F9 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		DCC8F0782AFABE2300E278F9 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		DCC8F0792AFABE2300E278F9 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		DCC8F07A2AFABE2300E278F9 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		DCC8F07B2AFABE2300E278F9 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		DCC8F07C2AFABE2300E278F9 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		DCC8F0812AFABE2300E278F9 /* StosUpdate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StosUpdate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC8F0842AFABE2300E278F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCC8F0862AFABE2300E278F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCC8F0892AFABE2300E278F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCC8F08C2AFABE2300E278F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCC8F08E2AFABE2300E278F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC8F0932AFABE2300E278F9 /* StosUpdate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StosUpdate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC8F0952AFABE2300E278F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCC8F0982AFABE2300E278F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCC8F09A2AFABE2300E278F9 /* StosUpdate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StosUpdate.entitlements; sourceTree = "<group>"; };
+		DCC8F09F2AFABE2300E278F9 /* StosUpdate Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "StosUpdate Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC8F0A42AFABE2300E278F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC8F0A92AFABE2300E278F9 /* StosUpdate Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "StosUpdate Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC8F0AE2AFABE2300E278F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC8F0AF2AFABE2300E278F9 /* StosUpdate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StosUpdate.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCC8F07E2AFABE2300E278F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8F0902AFABE2300E278F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8F09C2AFABE2300E278F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8F0A62AFABE2300E278F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCC8F0642AFABE2100E278F9 = {
+			isa = PBXGroup;
+			children = (
+				DCC8F0692AFABE2100E278F9 /* Shared (App) */,
+				DCC8F0722AFABE2300E278F9 /* Shared (Extension) */,
+				DCC8F0832AFABE2300E278F9 /* iOS (App) */,
+				DCC8F0942AFABE2300E278F9 /* macOS (App) */,
+				DCC8F0A32AFABE2300E278F9 /* iOS (Extension) */,
+				DCC8F0AD2AFABE2300E278F9 /* macOS (Extension) */,
+				DCC8F0822AFABE2300E278F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC8F0692AFABE2100E278F9 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DCC8F0702AFABE2100E278F9 /* ViewController.swift */,
+				DCC8F0712AFABE2300E278F9 /* Assets.xcassets */,
+				DCC8F06A2AFABE2100E278F9 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		DCC8F06A2AFABE2100E278F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCC8F06B2AFABE2100E278F9 /* Main.html */,
+				DCC8F06D2AFABE2100E278F9 /* Icon.png */,
+				DCC8F06E2AFABE2100E278F9 /* Style.css */,
+				DCC8F06F2AFABE2100E278F9 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCC8F0722AFABE2300E278F9 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DCC8F0732AFABE2300E278F9 /* SafariWebExtensionHandler.swift */,
+				DCC8F0742AFABE2300E278F9 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		DCC8F0742AFABE2300E278F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCC8F0752AFABE2300E278F9 /* _locales */,
+				DCC8F0762AFABE2300E278F9 /* images */,
+				DCC8F0772AFABE2300E278F9 /* manifest.json */,
+				DCC8F0782AFABE2300E278F9 /* background.js */,
+				DCC8F0792AFABE2300E278F9 /* content.js */,
+				DCC8F07A2AFABE2300E278F9 /* popup.html */,
+				DCC8F07B2AFABE2300E278F9 /* popup.css */,
+				DCC8F07C2AFABE2300E278F9 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCC8F0822AFABE2300E278F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC8F0812AFABE2300E278F9 /* StosUpdate.app */,
+				DCC8F0932AFABE2300E278F9 /* StosUpdate.app */,
+				DCC8F09F2AFABE2300E278F9 /* StosUpdate Extension.appex */,
+				DCC8F0A92AFABE2300E278F9 /* StosUpdate Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC8F0832AFABE2300E278F9 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DCC8F0842AFABE2300E278F9 /* AppDelegate.swift */,
+				DCC8F0862AFABE2300E278F9 /* SceneDelegate.swift */,
+				DCC8F0882AFABE2300E278F9 /* LaunchScreen.storyboard */,
+				DCC8F08B2AFABE2300E278F9 /* Main.storyboard */,
+				DCC8F08E2AFABE2300E278F9 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		DCC8F0942AFABE2300E278F9 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DCC8F0952AFABE2300E278F9 /* AppDelegate.swift */,
+				DCC8F0972AFABE2300E278F9 /* Main.storyboard */,
+				DCC8F09A2AFABE2300E278F9 /* StosUpdate.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		DCC8F0A32AFABE2300E278F9 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DCC8F0A42AFABE2300E278F9 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		DCC8F0AD2AFABE2300E278F9 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DCC8F0AE2AFABE2300E278F9 /* Info.plist */,
+				DCC8F0AF2AFABE2300E278F9 /* StosUpdate.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCC8F0802AFABE2300E278F9 /* StosUpdate (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC8F0D42AFABE2300E278F9 /* Build configuration list for PBXNativeTarget "StosUpdate (iOS)" */;
+			buildPhases = (
+				DCC8F07D2AFABE2300E278F9 /* Sources */,
+				DCC8F07E2AFABE2300E278F9 /* Frameworks */,
+				DCC8F07F2AFABE2300E278F9 /* Resources */,
+				DCC8F0D32AFABE2300E278F9 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC8F0A22AFABE2300E278F9 /* PBXTargetDependency */,
+			);
+			name = "StosUpdate (iOS)";
+			productName = "StosUpdate (iOS)";
+			productReference = DCC8F0812AFABE2300E278F9 /* StosUpdate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCC8F0922AFABE2300E278F9 /* StosUpdate (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC8F0DB2AFABE2300E278F9 /* Build configuration list for PBXNativeTarget "StosUpdate (macOS)" */;
+			buildPhases = (
+				DCC8F08F2AFABE2300E278F9 /* Sources */,
+				DCC8F0902AFABE2300E278F9 /* Frameworks */,
+				DCC8F0912AFABE2300E278F9 /* Resources */,
+				DCC8F0DA2AFABE2300E278F9 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC8F0AC2AFABE2300E278F9 /* PBXTargetDependency */,
+			);
+			name = "StosUpdate (macOS)";
+			productName = "StosUpdate (macOS)";
+			productReference = DCC8F0932AFABE2300E278F9 /* StosUpdate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCC8F09E2AFABE2300E278F9 /* StosUpdate Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC8F0D02AFABE2300E278F9 /* Build configuration list for PBXNativeTarget "StosUpdate Extension (iOS)" */;
+			buildPhases = (
+				DCC8F09B2AFABE2300E278F9 /* Sources */,
+				DCC8F09C2AFABE2300E278F9 /* Frameworks */,
+				DCC8F09D2AFABE2300E278F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StosUpdate Extension (iOS)";
+			productName = "StosUpdate Extension (iOS)";
+			productReference = DCC8F09F2AFABE2300E278F9 /* StosUpdate Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DCC8F0A82AFABE2300E278F9 /* StosUpdate Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC8F0D72AFABE2300E278F9 /* Build configuration list for PBXNativeTarget "StosUpdate Extension (macOS)" */;
+			buildPhases = (
+				DCC8F0A52AFABE2300E278F9 /* Sources */,
+				DCC8F0A62AFABE2300E278F9 /* Frameworks */,
+				DCC8F0A72AFABE2300E278F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StosUpdate Extension (macOS)";
+			productName = "StosUpdate Extension (macOS)";
+			productReference = DCC8F0A92AFABE2300E278F9 /* StosUpdate Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC8F0652AFABE2100E278F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DCC8F0802AFABE2300E278F9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					DCC8F0922AFABE2300E278F9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					DCC8F09E2AFABE2300E278F9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					DCC8F0A82AFABE2300E278F9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DCC8F0682AFABE2100E278F9 /* Build configuration list for PBXProject "StosUpdate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCC8F0642AFABE2100E278F9;
+			productRefGroup = DCC8F0822AFABE2300E278F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC8F0802AFABE2300E278F9 /* StosUpdate (iOS) */,
+				DCC8F0922AFABE2300E278F9 /* StosUpdate (macOS) */,
+				DCC8F09E2AFABE2300E278F9 /* StosUpdate Extension (iOS) */,
+				DCC8F0A82AFABE2300E278F9 /* StosUpdate Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCC8F07F2AFABE2300E278F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC8F0B22AFABE2300E278F9 /* Icon.png in Resources */,
+				DCC8F08A2AFABE2300E278F9 /* LaunchScreen.storyboard in Resources */,
+				DCC8F0B02AFABE2300E278F9 /* Main.html in Resources */,
+				DCC8F0B62AFABE2300E278F9 /* Script.js in Resources */,
+				DCC8F0BA2AFABE2300E278F9 /* Assets.xcassets in Resources */,
+				DCC8F08D2AFABE2300E278F9 /* Main.storyboard in Resources */,
+				DCC8F0B42AFABE2300E278F9 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8F0912AFABE2300E278F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC8F0B32AFABE2300E278F9 /* Icon.png in Resources */,
+				DCC8F0B52AFABE2300E278F9 /* Style.css in Resources */,
+				DCC8F0992AFABE2300E278F9 /* Main.storyboard in Resources */,
+				DCC8F0B72AFABE2300E278F9 /* Script.js in Resources */,
+				DCC8F0BB2AFABE2300E278F9 /* Assets.xcassets in Resources */,
+				DCC8F0B12AFABE2300E278F9 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8F09D2AFABE2300E278F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC8F0C42AFABE2300E278F9 /* background.js in Resources */,
+				DCC8F0CA2AFABE2300E278F9 /* popup.css in Resources */,
+				DCC8F0C82AFABE2300E278F9 /* popup.html in Resources */,
+				DCC8F0C02AFABE2300E278F9 /* images in Resources */,
+				DCC8F0C22AFABE2300E278F9 /* manifest.json in Resources */,
+				DCC8F0BE2AFABE2300E278F9 /* _locales in Resources */,
+				DCC8F0C62AFABE2300E278F9 /* content.js in Resources */,
+				DCC8F0CC2AFABE2300E278F9 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8F0A72AFABE2300E278F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC8F0C52AFABE2300E278F9 /* background.js in Resources */,
+				DCC8F0CB2AFABE2300E278F9 /* popup.css in Resources */,
+				DCC8F0C92AFABE2300E278F9 /* popup.html in Resources */,
+				DCC8F0C12AFABE2300E278F9 /* images in Resources */,
+				DCC8F0C32AFABE2300E278F9 /* manifest.json in Resources */,
+				DCC8F0BF2AFABE2300E278F9 /* _locales in Resources */,
+				DCC8F0C72AFABE2300E278F9 /* content.js in Resources */,
+				DCC8F0CD2AFABE2300E278F9 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC8F07D2AFABE2300E278F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC8F0B82AFABE2300E278F9 /* ViewController.swift in Sources */,
+				DCC8F0852AFABE2300E278F9 /* AppDelegate.swift in Sources */,
+				DCC8F0872AFABE2300E278F9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8F08F2AFABE2300E278F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC8F0B92AFABE2300E278F9 /* ViewController.swift in Sources */,
+				DCC8F0962AFABE2300E278F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8F09B2AFABE2300E278F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC8F0BC2AFABE2300E278F9 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8F0A52AFABE2300E278F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC8F0BD2AFABE2300E278F9 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCC8F0A22AFABE2300E278F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC8F09E2AFABE2300E278F9 /* StosUpdate Extension (iOS) */;
+			targetProxy = DCC8F0A12AFABE2300E278F9 /* PBXContainerItemProxy */;
+		};
+		DCC8F0AC2AFABE2300E278F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC8F0A82AFABE2300E278F9 /* StosUpdate Extension (macOS) */;
+			targetProxy = DCC8F0AB2AFABE2300E278F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCC8F06B2AFABE2100E278F9 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC8F06C2AFABE2100E278F9 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		DCC8F0882AFABE2300E278F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC8F0892AFABE2300E278F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DCC8F08B2AFABE2300E278F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC8F08C2AFABE2300E278F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCC8F0972AFABE2300E278F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC8F0982AFABE2300E278F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCC8F0CE2AFABE2300E278F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCC8F0CF2AFABE2300E278F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DCC8F0D12AFABE2300E278F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2FD463PKM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "StosUpdate Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = filip.dabkowski.StosUpdate.Extension;
+				PRODUCT_NAME = "StosUpdate Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC8F0D22AFABE2300E278F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2FD463PKM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "StosUpdate Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = filip.dabkowski.StosUpdate.Extension;
+				PRODUCT_NAME = "StosUpdate Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC8F0D52AFABE2300E278F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2FD463PKM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = StosUpdate;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = filip.dabkowski.StosUpdate;
+				PRODUCT_NAME = StosUpdate;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC8F0D62AFABE2300E278F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2FD463PKM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = StosUpdate;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = filip.dabkowski.StosUpdate;
+				PRODUCT_NAME = StosUpdate;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC8F0D82AFABE2300E278F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/StosUpdate.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2FD463PKM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "StosUpdate Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = filip.dabkowski.StosUpdate.Extension;
+				PRODUCT_NAME = "StosUpdate Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DCC8F0D92AFABE2300E278F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/StosUpdate.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2FD463PKM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "StosUpdate Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = filip.dabkowski.StosUpdate.Extension;
+				PRODUCT_NAME = "StosUpdate Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DCC8F0DC2AFABE2300E278F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/StosUpdate.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2FD463PKM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StosUpdate;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = filip.dabkowski.StosUpdate;
+				PRODUCT_NAME = StosUpdate;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DCC8F0DD2AFABE2300E278F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/StosUpdate.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2FD463PKM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StosUpdate;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = filip.dabkowski.StosUpdate;
+				PRODUCT_NAME = StosUpdate;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCC8F0682AFABE2100E278F9 /* Build configuration list for PBXProject "StosUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC8F0CE2AFABE2300E278F9 /* Debug */,
+				DCC8F0CF2AFABE2300E278F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC8F0D02AFABE2300E278F9 /* Build configuration list for PBXNativeTarget "StosUpdate Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC8F0D12AFABE2300E278F9 /* Debug */,
+				DCC8F0D22AFABE2300E278F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC8F0D42AFABE2300E278F9 /* Build configuration list for PBXNativeTarget "StosUpdate (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC8F0D52AFABE2300E278F9 /* Debug */,
+				DCC8F0D62AFABE2300E278F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC8F0D72AFABE2300E278F9 /* Build configuration list for PBXNativeTarget "StosUpdate Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC8F0D82AFABE2300E278F9 /* Debug */,
+				DCC8F0D92AFABE2300E278F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC8F0DB2AFABE2300E278F9 /* Build configuration list for PBXNativeTarget "StosUpdate (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC8F0DC2AFABE2300E278F9 /* Debug */,
+				DCC8F0DD2AFABE2300E278F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCC8F0652AFABE2100E278F9 /* Project object */;
+}
